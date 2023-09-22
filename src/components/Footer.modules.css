@@ -1,0 +1,28 @@
+/* Footer.module.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333; /* Background color for the footer */
+    color: #ffffff; /* Text color for the footer */
+    padding: 10px 0; /* Adjust padding as needed */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  
+  .social-icon:hover {
+    opacity: 0.8;
+  }
+  

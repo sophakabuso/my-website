@@ -1,0 +1,23 @@
+/* EducationInfo.module.css */
+
+.education-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.education-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-item {
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
