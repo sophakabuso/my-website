@@ -1,0 +1,20 @@
+/* PersonalInfo.modules.css */
+
+.personalInfo {
+  padding: 20px;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.infoLabel {
+  font-weight: bold;
+  width: 100px;
+}
+
+.infoValue {
+  flex-grow: 1;
+}

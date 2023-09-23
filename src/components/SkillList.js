@@ -7,6 +7,11 @@ const skillslist = [
   { img: './assets/icons/cplusplus.png', item: "C++", level: 3 },
   { img: './assets/icons/html2.png', item: "HTML5", level: 3 },
   { img: './assets/icons/css3.png', item: "CSS3", level: 3 },
+  { img: './assets/icons/js.png', item: "JavaScript", level: 3 },
+  { img: './assets/icons/pyy.png', item: "Python", level: 3 },
+  { img: './assets/icons/cplusplus.png', item: "C++", level: 3 },
+  { img: './assets/icons/html2.png', item: "HTML5", level: 3 },
+  { img: './assets/icons/css3.png', item: "CSS3", level: 3 },
 ];
 
 const SkillList = () => {

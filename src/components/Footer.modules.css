@@ -1,28 +1,26 @@
-/* Footer.module.css */
+/* Footer.modules.css */
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #333; /* Background color for the footer */
-    color: #ffffff; /* Text color for the footer */
-    padding: 10px 0; /* Adjust padding as needed */
-    z-index: 1000; /* Ensure it's above other content */
-  }
-  
-  
-  .social-icons {
-    margin-top: 10px;
-  }
-  
-  .social-icon {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
-  }
-  
-  .social-icon:hover {
-    opacity: 0.8;
-  }
-  
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  flex-direction: row;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+.socialIcon:hover {
+  opacity: 0.8;
+}

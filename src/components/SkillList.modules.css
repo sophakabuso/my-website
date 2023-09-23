@@ -1,0 +1,25 @@
+/* SkillList.modules.css */
+
+.skillList {
+  padding: 20px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.skillLogo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.skillName {
+  font-weight: bold;
+}
+
+.skillLevel {
+  color: #777;
+}

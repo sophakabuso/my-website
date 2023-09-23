@@ -1,0 +1,20 @@
+/* MainContainer.modules.css */
+
+.maincontainer {
+  text-align: center;
+  padding: 20px;
+  background-color: azure;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  color: #555;
+}
+
+h3 {
+  color: #777;
+}

@@ -1,0 +1,31 @@
+/* BioContainer.modules.css */
+
+.bioContainer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.bioContainer > div {
+  flex: 1;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+  color: #555;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}

@@ -1,0 +1,12 @@
+/* ImageContainer.modules.css */
+
+.imageContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #333;
+}

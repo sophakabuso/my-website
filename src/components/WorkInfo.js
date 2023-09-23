@@ -31,18 +31,33 @@ const workExperience = [
     responsibilities: "Quality Duties As Per Job Description"
   },
   {
+    company: "Trnskei Cash & Carry Idutya",
+    position: "Data Capture",
+    startDate: "September 2007",
+    endDate: "December 2007",
+    responsibilities: "Data Capurin, making GRV's, Payments etc"
+  },
+  {
     company: "Rehau Polymer Solutions East London",
     position: "Operator",
     startDate: "June 2006",
     endDate: "May 2007",
     responsibilities: "Moulding Machine Operator"
   },
+ 
   {
     company: "African Bank East London",
     position: "Sales Consultant",
     startDate: "February 2005",
     endDate: "May 2006",
     responsibilities: "Customer Service"
+  },
+  {
+    company: "SPC AUTO Repairs Butterworth(Zithulele Industrial Area)",
+    position: "Assistant Mechanic and Auto Electrician",
+    startDate: "During School Holidays & some weekends 2002",
+    endDate: " 2003",
+    responsibilities: ""
   }
 ];
 

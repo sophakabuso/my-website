@@ -13,20 +13,37 @@ const education = [
     year: "2019"
   },
   {
+    qualification: "National Diploma Electrical Engineering",
+    institution:"University of Johannesburg",
+    year: "2010-2010 (not completed)"
+  },
+  {
     qualification: "Bachelor of Engineering Electrical Engineering",
     institution: "University of Pretoria",
     year: "2008-2009 (not completed)"
   },
   {
     qualification: "Bachelor of Computer Science and Physics",
-    institution: "University Of Transkei (WSU)",
+    institution: " WSU Mthatha",
     year: "2004-2004 (not completed)"
   },
   {
-    qualification: "Senior Certificate",
-    institution: "Ndabankulu SSS",
-    year: "2004"
+    qualification: "Senior Certificate grade 12",
+    institution: "Ndabankulu SSS(Butterwoth)",
+    year: "2002-2003"
+    
+  },
+  {
+  qualification: "High School",
+  institution: "Borakanelo High School (Klerksdorp)",
+  year:"2000-2001",
+  } ,
+  {
+    qualification:  "Primary School",
+    institution:"Toleni(Butterwoth) and Dikson Dyani(Mdantsane)",
+    year:"~1991-1999",
   }
+
 ];
 
 const EducationInfo = () => {

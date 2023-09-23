@@ -1,0 +1,21 @@
+/* WorkInfo.modules.css */
+
+.workInfo {
+  padding: 20px;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.position {
+  color: #555;
+}
+
+.date {
+  color: #777;
+}
+
+.responsibilities {
+  margin-top: 10px;
+}
