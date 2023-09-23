@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.modules.css'; // Correct the import path and filename
+import styles from './Header.modules.css'; // Correct the import path and filename
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faSlack, faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
@@ -11,12 +11,12 @@ const socialLinks = [
   { icon: faLinkedin, url: 'https://www.linkedin.com/in/sophakama-buso-2a9191103/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BeI%2FqN7XGSjOIIVcam21XIg%3D%3D' },
 ];
 
-const Footer = () => {
+const Header = () => {
   return (
     
     <div className={styles.footerContainer}>
       <div className={styles.logoHolder}>
-        <h1 className={styles.logoText}>SoB</h1>
+        <h1 className={styles.logoText}>SdotB Technolabs</h1>
       </div>
       <div className={styles.socialMedia}>
         {socialLinks.map((socialLink, index) => (
@@ -30,4 +30,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Header;

@@ -1,0 +1,47 @@
+.siteNavContainer {
+    background-color: #e51b1b;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .logoHolder {
+    text-align: center;
+    margin-bottom: 100px;
+  
+  }
+  
+  .logoText {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  nav{
+    background-color: #e51b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .navItem {
+    margin: 0 10px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  

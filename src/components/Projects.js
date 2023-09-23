@@ -1,13 +1,12 @@
-// SiteNav.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './SiteNav.modules.css'; // Import your CSS module
+import styles from './Projects.modules.css'; // Import your CSS module
 
-const SiteNav = () => {
+const Projects =() => {
   return (
     <div className={styles.siteNavContainer}>
        <div>
-        <h2>Portfolio</h2>
+        <h2>projects</h2>
        </div>
       <nav>
         <ul className={styles.navList}>
@@ -44,4 +43,4 @@ const SiteNav = () => {
   );
 };
 
-export default SiteNav;
+export default Projects;
