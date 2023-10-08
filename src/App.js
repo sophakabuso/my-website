@@ -11,18 +11,16 @@ import PersonalInfo from './components/PersonalInfo';
 import EducationInfo from './components/EducationInfo';
 import WorkInfo from './components/WorkInfo';
 import FormContainer from './components/FormContainer';
-import Reading from './components/Qonda'
 import SiteNav from './components/SiteNav';
 import Projects from './components/Projects';
 import Header from './components/Header';
+import Qonda from './components/Qonda';
 
 
 function App() {
   return (
-    <div >
+    
     <Router>
-     
-        
         <Route exact path="/" component={MainContainer} />
         <Route path="/siteNav" component={SiteNav}/>
         <Route path ="/videoBackground" component={VideoBackground} />
@@ -34,12 +32,11 @@ function App() {
         <Route path="/work" component={WorkInfo} />
         <Route path="/form" component={FormContainer} />
         <Route path="/sob-verticals" component={SobVerticals}/> 
-        <Route path="/reading" component={Reading}/>
         <Route path="/projects" component={Projects}/>
         <Route path="/header" component = {Header}/>
-      
+        <Route path="/Qonda" component = {Qonda}/>
     </Router>
-    </div>
+  
   );
 }
 
